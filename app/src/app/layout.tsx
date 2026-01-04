@@ -3,31 +3,15 @@ import { TransitProvider } from '@/context/TransitContext';
 import './globals.css';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://interactive-gtfs.vercel.app'),
+  metadataBase: new URL('https://hyd-transit.vercel.app'),
   title: 'Hyderabad Transit Map',
   description: 'Interactive visualization of Hyderabad public transit - Metro, MMTS, and City Bus',
   keywords: ['Hyderabad', 'transit', 'metro', 'MMTS', 'bus', 'GTFS', 'map'],
   icons: {
     icon: '/icon.svg',
   },
-  openGraph: {
-    title: 'Hyderabad Transit Map',
-    description: 'Interactive visualization of Hyderabad public transit - Metro, MMTS, and City Bus',
-    images: [
-      {
-        url: '/og-image.png',
-        width: 1200,
-        height: 630,
-        alt: 'Hyderabad Transit Map',
-      },
-    ],
-    type: 'website',
-  },
   twitter: {
     card: 'summary_large_image',
-    title: 'Hyderabad Transit Map',
-    description: 'Interactive visualization of Hyderabad public transit - Metro, MMTS, and City Bus',
-    images: ['/og-image.png'],
     creator: '@jarusionn',
   },
 };
