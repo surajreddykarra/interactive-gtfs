@@ -1,0 +1,2 @@
+# This file ensures the data folder is tracked by git
+# Only .zip files in this folder will be committed

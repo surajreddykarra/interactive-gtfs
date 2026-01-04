@@ -1,0 +1,18 @@
+# Hyderabad Transit Preprocessor Dependencies
+
+# Core data manipulation
+pandas>=2.0.0
+numpy>=1.24.0
+
+# GTFS parsing (gtfs-kit requires these)
+gtfs-kit>=5.2.0
+partridge>=1.1.0
+
+# Geometry handling
+shapely>=2.0.0
+geojson>=3.0.0
+pyproj>=3.5.0
+
+# Utilities
+tqdm>=4.65.0
+python-dateutil>=2.8.0
