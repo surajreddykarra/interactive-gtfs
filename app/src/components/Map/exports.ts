@@ -1,2 +1,2 @@
 // Export map components
-export { default as TransitMap } from './Map';
+export { default as TransitMap } from './index';

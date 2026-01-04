@@ -3,6 +3,7 @@ import { TransitProvider } from '@/context/TransitContext';
 import './globals.css';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://interactive-gtfs.vercel.app'),
   title: 'Hyderabad Transit Map',
   description: 'Interactive visualization of Hyderabad public transit - Metro, MMTS, and City Bus',
   keywords: ['Hyderabad', 'transit', 'metro', 'MMTS', 'bus', 'GTFS', 'map'],
